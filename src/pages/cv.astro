@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    I'm Diogo, a MSc Computer Science student at IST focused on Artificial Intelligence and specifically working on a thesis based on Computer Vision and Deep Learning. I am also minoring in Smart Cities which is a personal interest of mine and an area I believe can have a profound impact on the sustainability, efficiency and comfort of our modern urban landscape.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Primary and Secondary School (19/20)"
+      subtitle="2009-2017 at Colégio Valsassina, Lisbon, Portugal"
+    />
+    <TimeLineElement
+      title="Bachelor in Computer Science (15/20)"
+      subtitle="2017-2020 at Instituto Superior Técnico, Lisbon, Portugal"
+    />
+    <TimeLineElement
+    title="Masters in Computer Science (Ongoing)"
+    subtitle="2021-2023 at Instituto Superior Técnico, Lisbon, Portugal"
+  />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Aircraft Maintenance Intern"
+      subtitle="2015 at TAP Air Portugal, Lisbon, Portugal"
+      desc="Aircraft Maintenance Summer Internship at the repair facility for TAP Air Portugal. I learned a lot about the aircraft maintenance process and how to work in a team."
+    />
+    <TimeLineElement
+      title="Invited Assistant Professor"
+      subtitle="2022 at Instituto Superior Técnico, Lisbon, Portugal"
+      desc="Invited Assistant Professor at the Department of Computer Science and Engineering at Instituto Superior Técnico. I am teaching the course of Management and Administration of It Infrastructures and Services. This experience has vastly enhanced my communication skills as well as the ability to speak in front of a large audience."
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      CAE (Certificate of Advanced English) - 2018
+    </li>
+    <li>
+      DELE B1 (Diploma of Spanish as a Foreign Language) - 2015
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Volunteering</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      Warehouse Laborer (Food Bank Lisbon) - 2014-2017
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Portuguese (Native)</li>
+    <li>English (C2)</li>
+    <li>Spanish (B1)</li>
+    <li>Python</li>
+    <li>Java</li>
+    <li>JavaScript</li>
+    <li>C++</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>SQL</li>
+    <li>Git</li>
+    <li>Linux</li>
+    <li>SysAdmin</li>
+    <li>DevOps</li>
+    <li>Google Cloud</li>
+    <li>AWS</li>
+    <li>Terraform</li>
+    <li>Ansible</li>
+  </ul>
+</BaseLayout>
